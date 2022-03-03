@@ -55,6 +55,7 @@ nav ul li a:hover{
   color: #111;
   background: #fff;
   overflow-y: hidden;
+  z-index: 999;
 }
 nav .menu-btn i{
   color: #fff;
@@ -147,6 +148,7 @@ input[type="checkbox"]{
   font-size: 40px;
   font-weight: 700;
   color: #000;
+  z-index: 999;
 }
 
 .slide {
@@ -156,7 +158,7 @@ input[type="checkbox"]{
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 400vw;
+  width: 700vw;
 }
 
 .one h1{
@@ -173,6 +175,8 @@ input[type="checkbox"]{
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .two {
   justify-content: center;
@@ -190,8 +194,46 @@ input[type="checkbox"]{
   background: #0bbaa0;
 }
 .four {
-  background: #00dfdf;
+  background: #134242;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
 }
+
+.four h1 {
+  font-size: 45px;
+  color: #fff;
+}
+
+.five {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+}
+
+.five h1 {
+  font-size: 50px;
+}
+
+.six {
+    background-image: url(lighthouseImg.png);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-top: 250px;
+}
+
+.six h1 {
+  font-weight: 700;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #fff;
+}
+
 
 .wrapper {
     transform: rotate(90deg) translateY(-100vh);

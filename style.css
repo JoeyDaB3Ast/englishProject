@@ -191,9 +191,35 @@ input[type="checkbox"]{
 }
 
 .three {
-  background: #0bbaa0;
+  background: #047a1e;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
 }
+
+.three h1 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 2;
+}
+
+.three2 {
+  text-align: center;
+  background: #16aaaa;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+}
+
+.three2 h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
 .four {
+  text-align: center;
   background: #134242;
   justify-content: center;
   align-items: center;
@@ -221,8 +247,6 @@ input[type="checkbox"]{
 .six {
     background-image: url(lighthouseImg.png);
     text-align: center;
-    justify-content: center;
-    align-items: center;
     padding: 50px;
     padding-top: 250px;
 }
@@ -232,6 +256,23 @@ input[type="checkbox"]{
   padding-top: 20px;
   font-size: 40px;
   color: #fff;
+}
+
+.seven {
+  background-color: rgb(192, 111, 5);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+}
+
+.seven h1 {
+  font-weight: 700;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #fff;
+  line-height: 3;
 }
 
 

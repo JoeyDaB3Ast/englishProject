@@ -158,13 +158,19 @@ input[type="checkbox"]{
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 700vw;
+  width: 1100vw;
+}
+
+.ten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .one h1{
   font-weight: 500;
   color: #fff;
-  font-size: 20px;
+  font-size: 23px;
 }
 .one {
   text-align: center;
@@ -258,6 +264,10 @@ input[type="checkbox"]{
   color: #fff;
 }
 
+@keyframes mymove1 {
+  50% {transform: rotate(10deg);}
+}
+
 .seven {
   background-color: rgb(192, 111, 5);
   text-align: center;
@@ -267,12 +277,40 @@ input[type="checkbox"]{
   padding: 50px;
 }
 
+.seven img{
+  animation: mymove1 5s infinite;
+}
+
 .seven h1 {
   font-weight: 700;
   padding-top: 20px;
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
   line-height: 3;
+}
+
+.eight {
+  background-color: rgb(170, 167, 7);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+}
+
+.eight h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.nine {
+    text-align: center;
+    padding: 50px;
+    background-image: url(skyv2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
 
 

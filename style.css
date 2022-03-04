@@ -30,6 +30,7 @@ html {
   height: 800px;
   float: left;
   background-position: center;
+  border: 3px solid #fff;
 }
 
 .float-child2 {
@@ -55,14 +56,59 @@ html {
 }
 
 .float-container1 {
-  border: 3px solid #fff;
-  padding:100px;
+  border: 6px solid #fff;
+  padding:40px;
 }
 
 #explanation1 {
   background-color: #24c386;
   padding: 100px;
 }
+
+#explanation2 {
+  padding: 100px;
+  background-color: #24b8c3;
+}
+
+#explanation3 {
+  padding: 100px;
+  background-color: #eeeeee;
+}
+
+.float-container2 {
+  padding:40px;
+}
+
+
+.float-child5 {
+  padding-top: 10%;
+  width: 50%;
+  height: 800px;
+  float: left;
+  background-image: url(whiteLighthouse.jpg);
+  background-position: center;
+}
+
+.float-child7 {
+  padding-top: 10%;
+  width: 50%;
+  height: 800px;
+  float: left;
+  background-image: url(race.jpg);
+  background-position: center;
+}
+
+.float-child6 {
+  width: 50%;
+  height: 800px;
+  float: left;
+  background-position: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 50%;
+  float: left;
+}
+
 
 nav{
   display: flex;

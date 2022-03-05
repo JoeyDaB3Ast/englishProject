@@ -56,7 +56,6 @@ html {
 }
 
 .float-container1 {
-  border: 6px solid #fff;
   padding:40px;
 }
 
@@ -92,7 +91,7 @@ html {
 .float-child7 {
   padding-top: 10%;
   width: 50%;
-  height: 800px;
+  height: 600px;
   float: left;
   background-image: url(race.jpg);
   background-position: center;
